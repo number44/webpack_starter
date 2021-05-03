@@ -1,0 +1,29 @@
+{
+  "name": "webpack_starter",
+  "version": "1.0.0",
+  "description": "webpack 5 basic starter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/number44/webpack_starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "5",
+    "typescript",
+    "react",
+    "sass",
+    "scss",
+    "hot",
+    "reload"
+  ],
+  "author": "number44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/number44/webpack_starter/issues"
+  },
+  "homepage": "https://github.com/number44/webpack_starter#readme"
+}
