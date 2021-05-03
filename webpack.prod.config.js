@@ -15,14 +15,16 @@ module.exports = {
         {
             test : /\.scss$/,
             use : [
-                // 'style-loader',
-                MiniCssExtractPlugin.loader,
-                'css-loader',
+                // {loader : 'style-loader'},
+                 MiniCssExtractPlugin.loader,
+                {loader : 'css-loader'},
                 {
-                    loader : "postcss-loader",
-                  
+                    loader :'postcss-loader',
+                    
+                    
                 },
-                'sass-loader']
+                {loader : 'sass-loader'}
+            ]
         },
         {
             test: /\.tsx?$/,
